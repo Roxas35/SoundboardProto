@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Underwood Champion Normal";
+    src: url(/uwch.ttf);
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b93232;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.Title{
+    font-size:30px;
+    font-family: "Underwood Champion Normal";
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(7, 89, 243);
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 1.5rem 1.3rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    font-family: "Underwood Champion Normal";
+}
+
+.btn:hover{
+    background-color: #181515;
+    box-shadow: 0 0 15px gold;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.7);
+    transform: translateY(9px);
+    box-shadow: 0 0 10px #ffffff;
+}
