@@ -1,10 +1,11 @@
-@font-face {
-    font-family: "Underwood Champion Normal";
-    src: url(uwch.ttf);
-  }
 
 * {
     box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Underwood Champion Normal";
+  src: url(uwch.ttf);
 }
 
 body{
